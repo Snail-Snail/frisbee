@@ -1,0 +1,91 @@
+/* 1st assignment */
+h1{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+nav a{
+    color: #000000;
+    background-color: #ffffff;
+}
+header{
+    background-color: #B3B3B3;
+}
+h2{
+    color: #0000ff;
+    text-transform: uppercase;
+}
+section{
+    background-color: #838383;
+}
+/* aside{
+    display: none;
+} */
+
+/* 2nd assignment */
+
+body{
+    margin: 20px 20px 0 20px;
+}
+
+header{
+    background: url(../images/flywheel.jpg) no-repeat;
+    background-size: cover;
+    padding: 60px;
+}
+
+h1{
+    font-size: x-large;
+}
+
+nav a{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding: 15px 0 0 0;
+    margin: 0 80px;
+    text-decoration: none;
+    opacity: 0.5;
+    border-radius: 10px;
+    font-size: large;
+}
+
+nav a.active:link{
+    opacity: 1.0;
+}
+
+nav a.active:visited{
+    opacity: 1.0;
+}
+
+
+.left{
+    background: #106108;
+    display: inline-block;
+    width: 260px;
+    height: 1000px;
+    float: left;
+}
+
+aside img{
+    display: block;
+    width: 200px;
+    height: auto;
+    border: 3px solid #000000;
+    margin: 30px 15px 10px 25px;
+}
+
+h2{
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.right{
+    background: #ffffff;
+    font-size: large;
+    display: inline-block;
+    float: right;
+    width: 1100px;
+    padding: 0 10px 0 5px;
+}
